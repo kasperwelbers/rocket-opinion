@@ -25,7 +25,7 @@ WORKDIR /app/bundle
 # needs a mongoinstance - defaults to container linking with alias 'mongo'
 ENV DEPLOY_METHOD=docker \
     NODE_ENV=production \
-    MONGO_URL= DATABASE_URL \
+    MONGO_URL=DATABASE_URL \
     HOME=/tmp \
     PORT=3000 \
     ROOT_URL=http://localhost:3000 \

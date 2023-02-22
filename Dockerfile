@@ -28,7 +28,7 @@ ENV DEPLOY_METHOD=docker \
     MONGO_URL=DATABASE_URL \
     HOME=/tmp \
     PORT=3000 \
-    ROOT_URL=http://localhost:3000 \
+    ROOT_URL=http://localhost:3000 
 
 EXPOSE 3000
 
